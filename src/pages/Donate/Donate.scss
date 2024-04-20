@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+.donate {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/free-photo/white-notebook-black-data-firewall_1150-1733.jpg?t=st=1713547468~exp=1713551068~hmac=7f450fb547d3977871c0d4ae3655f210f9288a1b3517646382070d671ce22d95&w=996");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .donateContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .donateWrapper {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.038);
+      backdrop-filter: blur(50px);
+      min-height: 50vh;
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      width: 90%;
+      .text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h1 {
+          font-family: Sora, sans-serif;
+        }
+
+        .text1 {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          .icon {
+            font-size: 60px;
+          }
+          p {
+            font-family: Sora, sans-serif;
+            font-size: 15px;
+            width: 600px;
+          }
+        }
+        .text2 {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          .icon {
+            font-size: 60px;
+          }
+          p {
+            font-family: Sora, sans-serif;
+            font-size: 15px;
+            width: 600px;
+          }
+        }
+      }
+
+      .qrCode {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: 50%;
+        img {
+          width: 300px;
+          height: 300px;
+          border-radius: 20px;
+        }
+        .logos {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

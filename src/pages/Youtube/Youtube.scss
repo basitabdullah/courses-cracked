@@ -1,0 +1,36 @@
+.youtube {
+  display: flex;
+  padding: 150px 80px;
+  .youtubeContainer {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    .videoWrapper {
+      width: 70%;
+      border-radius: 20px;
+      overflow: hidden;
+
+      video {
+        width: 100%;
+      }
+    }
+    button {
+      padding: 5px 10;
+      color: black;
+      font-family: sora;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btns {
+  
+      width: 20%;
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}

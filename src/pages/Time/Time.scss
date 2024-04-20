@@ -1,0 +1,12 @@
+.time {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .timeContainer {
+    text-align: center;
+    h1 {
+      font-family: sora;
+    }
+  }
+}

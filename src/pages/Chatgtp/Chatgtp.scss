@@ -1,0 +1,12 @@
+.chatgtp {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .chatgtpContainer {
+    text-align: center;
+    h1 {
+      font-family: sora;
+    }
+  }
+}
