@@ -3,7 +3,7 @@ import "./Course.scss";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 const Course = (props) => {
   const {path, name, title, para, listText, img } = props;
-  console.log(listText);
+  // console.log(listText);
   return (
     <div
       className="course"
