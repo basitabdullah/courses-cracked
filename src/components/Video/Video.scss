@@ -1,0 +1,34 @@
+.video {
+  display: flex;
+  gap: 30px;
+    .videoWrapper {
+      width: 70%;
+      border-radius: 20px;
+      overflow: hidden;
+
+      video {
+        width: 100%;
+      }
+    }
+    button {
+      padding: 8px 10px;
+      color: black;
+      font-family: sora;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+    }
+
+    .btns {
+  
+      width: 20%;
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
