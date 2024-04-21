@@ -10,6 +10,7 @@ const Course = (props) => {
       style={{
         background: `url(${img})`,
         backgroundSize: "cover",
+        backgroundPosition : "center",
         backgroundRepeat: "no-repeat",
       }}
     >

@@ -1,3 +1,7 @@
+import chatgtp from "./assets/chatgtp.jpg"
+import youtube from "./assets/youtube.jpg";
+import time from "./assets/time.jpg";
+
 export const data = [
   {
     id: "sjkvjsdvjsjvsnvjsdnvjs",
@@ -11,7 +15,7 @@ export const data = [
       { three: "Understand the secret to getting lakhs of followers." },
       { four: "Discover ways to earn money as a creator." },
     ],
-    img: "https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?t=st=1713588061~exp=1713591661~hmac=34f1eeea04db4de5b88848ab6a1e7bf68f1c10a3f46e9e595595c28cdb849905&w=1380",
+    img: youtube,
   },
 
   {
@@ -29,7 +33,7 @@ export const data = [
       },
       { four: "Get ahead and prepare yourself for the skills of the future." },
     ],
-    img: "https://img.freepik.com/free-photo/humanoid-robot-working-with-machine-factory-ai-generative_123827-23865.jpg?t=st=1713587838~exp=1713591438~hmac=6ac52bef4bc092f29c47f81958ecb58e8f7aed0409c6d86becfedcae4ff5edf9&w=1060",
+    img: chatgtp,
   },
 
   {
@@ -43,6 +47,6 @@ export const data = [
       { two: "Assignments to help you practice what you learn" },
       { three: "Balance your life and spend time on the things you love.." },
     ],
-    img: "https://img.freepik.com/free-photo/medium-shot-man-working-late-night-laptop_23-2150280997.jpg?t=st=1713588010~exp=1713591610~hmac=5a9081ff088b10d45d39bb711321bdb9c7dd1e8ce05d592558b3dc5f7563de3e&w=996",
+    img: time,
   },
 ];
