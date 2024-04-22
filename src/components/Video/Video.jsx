@@ -18,10 +18,6 @@ const Video = () => {
   const [videoSrc, SetVideoSrc] = useState(videosArr[0]);
 
 
-
-
-
-
 const vid1Ref = ref(
   storage,
   "/youtube-bluePrint/1 Welcome Video.mp4"
@@ -41,7 +37,7 @@ getDownloadURL(vid1Ref)
     setUrl1(url);
   })
   .catch((error) => {
-    // Handle any errors
+    console.log(error);
   });
 
 
