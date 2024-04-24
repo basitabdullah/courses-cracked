@@ -42,7 +42,7 @@ const Video = (props) => {
           ></video>
         </div>
         <div className="btnWrapper">
-          <h3>Play Lectures</h3>
+          <h3>Play Lectures :</h3>
           <div className="btns">
             {btnData.map((item) => (
               <button

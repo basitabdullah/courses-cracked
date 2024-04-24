@@ -8,7 +8,7 @@ import { useState } from "react";
 import { FaVideo } from "react-icons/fa";
 import { BsStack } from "react-icons/bs";
 const Youtube = () => {
-  const [active , setActive] = useState(false)
+  const [active, setActive] = useState(false);
   const vid1Ref = ref(storage, "/youtube-bluePrint/1 Welcome Video.mp4");
   const vid2Ref = ref(storage, "/youtube-bluePrint/2 Quit.mp4");
   const vid3Ref = ref(storage, "/youtube-bluePrint/3 Harsh Truths.mp4");
@@ -17,6 +17,23 @@ const Youtube = () => {
   const vid6Ref = ref(storage, "/youtube-bluePrint/6 Hook.mp4");
   const vid7Ref = ref(storage, "/youtube-bluePrint/7 Script.mp4");
   const vid8Ref = ref(storage, "/youtube-bluePrint/8 Topics.mp4");
+  const vid9Ref = ref(
+    storage,
+    "/youtube-bluePrint/9 Dynamic Of Shooting Videos.mp4"
+  );
+  const vid10Ref = ref(
+    storage,
+    "/youtube-bluePrint/10 Basics Of Filming Techniques.mp4"
+  );
+  const vid11Ref = ref(
+    storage,
+    "/youtube-bluePrint/11 Organising Your Footage.mp4"
+  );
+  const vid12Ref = ref(storage, "/youtube-bluePrint/12 Mastering Lighting.mp4");
+  const vid13Ref = ref(
+    storage,
+    "/youtube-bluePrint/13 Perfecting The Audio.mp4"
+  );
   const textData = [
     {
       title: "The YouTube Blueprint",
@@ -29,44 +46,68 @@ const Youtube = () => {
     {
       name: "Welcome",
       ref: vid1Ref,
-      id: "jddhvjksd",
+      id: "jddhvjffksd",
     },
     {
       name: "Quit",
       ref: vid2Ref,
-      id: "dhcgsdds",
+      id: "dhcgffsdds",
     },
     {
       name: "Harsh Truths",
       ref: vid3Ref,
-      id: "dhcgsvdfdds",
+      id: "dhcgffsvdfdds",
     },
     {
       name: "Purpose",
       ref: vid4Ref,
-      id: "vdffvdfv",
+      id: "vdffffffvdfv",
     },
     {
       name: "Niche",
       ref: vid5Ref,
-      id: "brbrtbrbrbvdd",
+      id: "brbrtbrbfffrbvdd",
     },
     {
       name: "Hook",
       ref: vid6Ref,
-      id: "mhjmygbfgb",
+      id: "mhjmygbffffgb",
     },
     {
       name: "Script",
       ref: vid7Ref,
-      id: "vfbgbrtbtrb",
+      id: "vfbgbrtbffftrb",
     },
     {
       name: "Topics",
       ref: vid8Ref,
+      id: "dhcgsbrgbrdtdffffds",
+    },
+    {
+      name: "Dynamics Of Shooting Videos",
+      ref: vid9Ref,
+      id: "sssssdddsddddd",
+    },
+    {
+      name: "Basics Of Filming Techniques",
+      ref: vid10Ref,
+      id: "dhcgsbrgdscsdbdddrtdds",
+    },
+    {
+      name: "Organising Your Footage",
+      ref: vid11Ref,
+      id: "dhcgsbrgddbrtghhhffdddds",
+    },
+    {
+      name: "Perfecting The Audio",
+      ref: vid12Ref,
+      id: "dhcgsbfdfdghddddmmjrgbrtdds",
+    },
+    {
+      name: "Perfecting The Audio",
+      ref: vid13Ref,
       id: "dhcgsbrgbrtdds",
     },
-    
   ];
   return (
     <div className="youtube">
@@ -92,7 +133,7 @@ const Youtube = () => {
             <div className="chapters">
               <div className="chap">
                 <div className="icon">
-                  <FaVideo/>
+                  <FaVideo />
                 </div>
                 <span>7.5 Hours of video content</span>
               </div>
