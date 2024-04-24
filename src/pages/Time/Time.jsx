@@ -6,8 +6,8 @@ const Time = () => {
     <div className="time">
       <Navbar />
       <div className="timeContainer">
-        <h1>Coming next week</h1>
-        <h2>3:30 pm Tuesday, 30 April 2024 (IST)</h2>
+        <h1>Time Management Course</h1>
+        <h2>Coming Soon!</h2>
       </div>
     </div>
   );

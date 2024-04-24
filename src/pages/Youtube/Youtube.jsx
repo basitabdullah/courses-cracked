@@ -5,7 +5,8 @@ import { storage } from "../../firebase";
 import { ref } from "firebase/storage";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-
+import { FaVideo } from "react-icons/fa";
+import { BsStack } from "react-icons/bs";
 const Youtube = () => {
   const [active , setActive] = useState(false)
   const vid1Ref = ref(storage, "/youtube-bluePrint/1 Welcome Video.mp4");
@@ -72,7 +73,7 @@ const Youtube = () => {
       <Navbar />
       <div className="youtubeContainer">
         {active ? (
-          <Video btnData={btnData} textData={textData}/>
+          <Video btnData={btnData} textData={textData} />
         ) : (
           <>
             <div className="title">
@@ -88,10 +89,24 @@ const Youtube = () => {
               getting lakhs of followers and making money as a content creator.
               It's time to live your dream life!
             </p>
-            <div className="chapters"></div>
+            <div className="chapters">
+              <div className="chap">
+                <div className="icon">
+                  <FaVideo/>
+                </div>
+                <span>7.5 Hours of video content</span>
+              </div>
+
+              <div className="chap">
+                <div className="icon">
+                  <BsStack />
+                </div>
+                <span>Detailed Chapters</span>
+              </div>
+            </div>
             <div className="buttons">
-              <button onClick={()=>setActive(true)}>Watch</button>
-              <Link>Go to home</Link>
+              <button onClick={() => setActive(true)}>Watch Now</button>
+              <Link to="/">Go to home</Link>
             </div>
           </>
         )}

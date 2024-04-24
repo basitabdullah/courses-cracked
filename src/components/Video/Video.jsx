@@ -66,7 +66,7 @@ const Video = (props) => {
             <IoChevronBackOutline />
             Back
           </Link>
-          <Link className="donateLink">
+          <Link className="donateLink" to="/donate">
             <FaDonate />
             Donate
           </Link>

@@ -1,19 +1,99 @@
 .youtube {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+
+  .youtubeContainer {
+    margin-top: 100px;
+    width: 95%;
+    padding: 15px 0px;
     display: flex;
-    align-items: center;
-    padding: 40px;
+    flex-direction: column;
+    gap: 30px;
 
-    .youtubeContainer {
-        margin-top: 100px;
-        width: 95%;
-        padding: 15px 0px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-
-        h1 {
-            color: rgb(179, 179, 179);
-        }
+    h1 {
+      color: rgb(179, 179, 179);
     }
 
+    .title {
+      .first {
+        font-size: 75px;
+        font-family: sora;
+        color: #c60108;
+      }
+
+      .second {
+        font-size: 65px;
+        font-family: sora;
+      }
+    }
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      font-family: sora;
+      color: rgb(172, 172, 172);
+    }
+
+    .chapters {
+      width: 50%;
+      padding: 15px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #090909;
+      border: 2px solid rgb(48, 48, 48);
+      .chap {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .icon {
+          padding: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 10px;
+          border: 1px solid rgb(94, 94, 94);
+
+          .reIcon {
+            color: gray;
+          }
+        }
+        span {
+          font-family: sora;
+          font-size: 15px;
+        }
+      }
+    }
+    .buttons {
+      width: 50%;
+      display: flex;
+      gap: 10px;
+      button {
+        width: 50%;
+        background-color: #da0007;
+        border: none;
+        padding: 20px;
+        font-size: 18px;
+        outline: none;
+        border-radius: 10px;
+        font-family: sora;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      a {
+        width: 50%;
+        background-color: #252525;
+        text-align: center;
+        border: none;
+        padding: 20px;
+        font-size: 18px;
+        outline: none;
+        border-radius: 10px;
+        font-family: sora;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
 }
