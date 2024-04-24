@@ -6,6 +6,7 @@ import Donate from './pages/Donate/Donate'
 import Chatgtp from "./pages/Chatgtp/Chatgtp";
 import Youtube from "./pages/Youtube/Youtube";
 import Time from "./pages/Time/Time";
+import Video from "./components/Video/Video";
 const App = () => {
   return (
     <Router>
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/donate" element={<Donate />} />
         <Route path="/chatgtp" element={<Chatgtp />} />
         <Route path="/youtube" element={<Youtube />} />
+        <Route path="/video" element={<Video />} />
         <Route path="/time" element={<Time />} />
       </Routes>
     </Router>
