@@ -19,7 +19,15 @@
       .first {
         font-size: 75px;
         font-family: sora;
-        color: #c60108;
+        color: #da0007;
+        &.gpt {
+          color: rgb(179, 179, 179);
+        }
+        span {
+          color: #269523;
+          font-size: 75px;
+          font-family: sora;
+        }
       }
 
       .second {
@@ -69,7 +77,7 @@
       width: 50%;
       display: flex;
       gap: 10px;
-      button {
+      .watchBtn {
         width: 50%;
         background-color: #da0007;
         border: none;
@@ -80,6 +88,10 @@
         font-family: sora;
         font-weight: 600;
         cursor: pointer;
+
+        &.gpt {
+          background-color: #269523;
+        }
       }
       a {
         width: 50%;

@@ -15,7 +15,7 @@ const Home = () => {
         <div className="explore">
           <h1>LEARN WHAT SCHOOL DOESN’T TEACH YOU</h1>
           <p>
-            At Courses Cracked, you can access all the paid courses of Dhruv
+            At Courses Cracked, you can access all the courses of Dhruv
             Rathee Academy, you can gain practical knowledge and learn
             real-world skills that will help you transform your life at work,
             school and home.

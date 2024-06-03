@@ -4,6 +4,7 @@ import { getDownloadURL } from "firebase/storage";
 import { Link } from "react-router-dom";
 import { IoChevronBackOutline } from "react-icons/io5";
 import { FaDonate } from "react-icons/fa";
+import poster from "../../assets/poster.png"
 const Video = (props) => {
   const { btnData, textData } = props;
   console.log(textData);
@@ -34,7 +35,7 @@ const Video = (props) => {
             controlsList="nodownload"
             autoPlay={true}
             preload="metadata"
-            poster="src\assets\poster.png"
+            poster={poster}
             onCanPlay={() => {
               const video = document.getElementById("video");
               video.play();
